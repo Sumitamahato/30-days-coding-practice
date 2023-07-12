@@ -15,6 +15,6 @@ Day-01-Music Player
 
 ### Day-02
 ## TIC-TAC-TOE
-# Nwtlify-Link--------------->
+# Netlify-Link--------------->https://preeminent-stardust-f50b0e.netlify.app/
 ![image](https://github.com/Sumitamahato/30-days-coding-practice/assets/113464291/60d7bf04-eb49-4b94-abb2-a8c850fbb8b2)
 
