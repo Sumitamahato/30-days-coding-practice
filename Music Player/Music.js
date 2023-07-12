@@ -21,6 +21,11 @@ let songs = [
         title: "Peaches",
         artist: "Justin Bieber",
     },
+    {
+        name: "Desperado",
+        title: "Desperado",
+        artist: "Linda ronstadt",
+    }
 ];
 let isplaying = false;
 let playmusic = () => {
