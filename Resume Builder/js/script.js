@@ -1,52 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
+// taking elements from html
+// input form
+const inputField = document.querySelector('.inputField');
+// unput container
+const main = document.querySelector('.main');
+// output container
+const output_container = document.querySelector('.output_container');
 
+// to track hide element
+let hideElement=true;
 
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume Builder</title>
-    <!-- style link here -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
+// function to hide the element on button click
+function hide(){
 
-<body>
+    // when input page is visible
+    if(hideElement){
+        // hide input container
+        main.style.display="none";
+        hideElement=false;
 
-    <!-- input container starts here -->
-    <section class="main">
-        <div class="container">
-            <h1>Resume Builder</h1>
-            <div class="resume_container">
-                <form class="inputField">
-                    <input type="text" name="name" placeholder="Name" title="Enter Name">
-                    <input type="text" name="title" placeholder="Title/Sub Heading" title="Enter Title">
-                    <textarea name="work_experience" placeholder="Work Experience" cols="40" rows="3" title="Enter Work Experience"></textarea>
-                    <textarea name="academic_details" placeholder="Academic Details" cols="40" rows="3" title="Enter Academic Details"></textarea>
-                    <input type="text" placeholder="Objective" title="Enter Objective" name="objective">
-                    <textarea name="skills" title="Enter Skills" placeholder="Skills" cols="40" rows="3"></textarea>
-                    <textarea name="projects" title="Enter Projects"  placeholder="Projects" cols="40" rows="3"></textarea>
-                    <textarea name="achievements" placeholder="Achievements" cols="40" rows="3" title="Enter Achievements"></textarea>
-                    <textarea name="contact" placeholder="Contact" cols="40" rows="3" title="Enter Contact Info"></textarea>
-                </form>
-            </div>
-            <p class="tip">**Use Markup in text-area for text-decor**</p>
+        // dispaly preview container
+        output_container.style.display="block";
+        // inner html for preview container
+        output_container.innerHTML=`
+        <div class="output">
+        <div class="heading">
+        <h1>${inputField["name"].value}</h1>
+        <h4>${inputField["title"].value}</h4>
         </div>
-    </section>
-    <!-- input container ends here -->
+        <div class="info">
+        <div class="left">
+        <div class="box">
+        <h2>Objective</h2>
+        <p>${inputField["objective"].value}</p>
+        </div>
+        <div class="box">
+        <h2>Skills</h2>
+        <p>${inputField["skills"].value}</p>
+        </div>
+        <div class="box">
+        <h2>Acedemic Details</h2>
+        <p>${inputField["academic_details"].value}</p>
+        </div>
+        <div class="box">
+        <h2>contact</h2>
+        <p>${inputField["contact"].value}</p>
+        </div>
+        </div>
+        <div class="right">
+        <div class="box">
+        <h2>Work Experience</h2>
+        <p>${inputField["work_experience"].value}</p>
+        </div>
+        <div class="box">
+        <h2>Achievements</h2>
+        <p>${inputField["achievements"].value}</p>
+        </div>
+        <div class="box">
+        <h2>Projects</h2>
+        <p>${inputField["projects"].value}</p>
+        </div>
+        </div>
+        </div>
+        </div>
+        <button onclick="print()">Print Resume</button>
+        `
+    }
 
-    <!-- output container starts here -->
-    <div class="output_container">
-    </div>
-    <!-- output container ends here -->
+    // show input container
+    else
+    {   
+        // display input container
+        main.style.display="block";
+        hideElement=true;
 
-    <!-- preview button -->
-    <button onclick="hide()">Generate / Edit</button>
-
-    <!-- script link here -->
-    <script src="js/script.js"></script>
-</body>
-
-
-</html>
+        // hide preview container
+        output_container.style.display="none";
+        output_container.innerHTML="";
+    }
+}
+// end of hide() function
