@@ -18,3 +18,9 @@ Day-01-Music Player
 # Netlify-Link--------------->https://preeminent-stardust-f50b0e.netlify.app/
 ![image](https://github.com/Sumitamahato/30-days-coding-practice/assets/113464291/60d7bf04-eb49-4b94-abb2-a8c850fbb8b2)
 
+
+### Day-03
+## Resume Builder
+# Netlify-Link--------->https://enchanting-crepe-0bb575.netlify.app/
+![Screenshot 2023-07-15 005049](https://github.com/Sumitamahato/30-days-coding-practice/assets/113464291/782a0195-602a-427c-af8b-a4801f16e26a)
+
