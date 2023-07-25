@@ -21,5 +21,8 @@ Day-01-Music Player
 ### Day-03
 ## Resume Builder
 # Netlify-Link--------->https://64bfbdb34157ce613afd5b89--papaya-vacherin-302158.netlify.app/
-![Screenshot 2023-07-15 005049](https://github.com/Sumitamahato/30-days-coding-practice/assets/113464291/782a0195-602a-427c-af8b-a4801f16e26a)
+![Screenshot 2023-07-25 175329](https://github.com/Sumitamahato/30-days-coding-practice/assets/113464291/dc3afc28-0b9f-4965-9965-510401941360)
+![Screenshot 2023-07-25 180532](https://github.com/Sumitamahato/30-days-coding-practice/assets/113464291/fcb951b8-986f-43cb-9989-3d8be4f30e06)
+
+
 
