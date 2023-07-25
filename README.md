@@ -2,7 +2,6 @@
 "Embark on a personal 30-day coding challenge on GitHub, pushing boundaries and honing my programming prowess every day."
 
 
-<<<<<<< HEAD:Music Player/README.md
 
 Day-01-Music Player
 =======
@@ -21,6 +20,6 @@ Day-01-Music Player
 
 ### Day-03
 ## Resume Builder
-# Netlify-Link--------->https://enchanting-crepe-0bb575.netlify.app/
+# Netlify-Link--------->https://64b1a2f3ee9bac059770041a--bespoke-medovik-9ad034.netlify.app/
 ![Screenshot 2023-07-15 005049](https://github.com/Sumitamahato/30-days-coding-practice/assets/113464291/782a0195-602a-427c-af8b-a4801f16e26a)
 
